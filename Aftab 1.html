@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Question</title>
+<style>
+body{
+font-family:Arial;
+text-align:center;
+margin-top:100px;
+background:#ffe6f0;
+}
+button{
+padding:15px 30px;
+font-size:18px;
+margin:10px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+.yes{background:#4CAF50;color:white;}
+.no{background:#f44336;color:white;}
+</style>
+</head>
+<body>
+<h1>Afreen, will you go out with me? 💖</h1>
+<button class="yes" onclick="yes()">Yes</button>
+<button class="no" onclick="no()">No</button>
+<p id="msg"></p>
+<script>
+function yes(){
+document.getElementById('msg').innerHTML="Yay 😍 I’m so happy!";
+}
+function no(){
+document.getElementById('msg').innerHTML="That’s okay 😊 Have a great day!";
+}
+</script>
+</body>
+</html>
